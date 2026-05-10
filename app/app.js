@@ -10,6 +10,10 @@ app.get('/demo', (req, res) => {
   res.send('Hello, World!');
 });
 
+app.get('/', (req, res) => {
+  res.send('Hiiiiiiiiiiiiiii');
+});
+
 
 
 // Error handling
